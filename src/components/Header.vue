@@ -1,70 +1,68 @@
 <template>
-    <div id="wrap">
-        <div id="box">
-        <div id="picName">
-            <img src="../../public/images/favicon.ico" alt="">
-            <h3>Future Engineering</h3>
-        </div>
-        <ul>
-            <li>Research</li>
-            <li>People</li>
-            <li>Publications</li>
-            <li>Teaching</li>
-            <li>Code</li>
-        </ul>
+  <div id="wrap">
+    <div id="box">
+      <div id="picName">
+        <img src="../../public/images/favicon.ico" alt="" />
+        <h4 @click="$router.push('/')">Future Engineering</h4>
+      </div>
+      <ul>
+        <li @click="$router.push('/research')">Research</li>
+        <li @click="$router.push('/people')">People</li>
+        <li @click="$router.push('/publications')">Publications</li>
+        <li @click="$router.push('/teaching')">Teaching</li>
+        <li @click="$router.push('/code')">Code</li>
+      </ul>
     </div>
-    </div>
-    
+  </div>
 </template>
-<script setup>
-</script>
+<script setup></script>
 <style scoped lang="scss">
-#wrap{
-    width: 100%;
-    border-bottom: 1px solid #9b9a9a;
+#wrap {
+  width: 100%;
+  border-bottom: 1px solid #9b9a9a;
 }
-#box{
-    width: 1200px;
-    height: 100px;
-    // background-color: #fff;
-    color: #fff;
+#box {
+  width: 1100px;
+  height: 95px;
+  // background-color: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin: auto;
+  ul {
+    display: flex;
+    width: 50%;
+    // background: blue;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    li {
+      cursor: pointer;
+    }
+    li:hover {
+      opacity: 0.8;
+    }
+  }
+  #picName {
+    // background: blue;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-sizing: border-box;
-    padding: 0 50px;
-    margin: auto;
-    ul{
-        display: flex;
-        width: 50%;
-        // background: blue;
-        display: flex;
-        justify-content: space-between;
-        font-size: 20px;
-        li{
-            cursor: pointer;
-        }
-        li:hover{
-            opacity: 0.8;
-        }
+    color: #e2e8f0;
+    img {
+      display: block;
+      width: 50px;
     }
-    #picName{
-        // background: blue;
-        width: 22%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: #e2e8f0;
-        img{
-            display: block;
-            width: 50px;
-        }
-        h3{
-            cursor: pointer;
-        }
-        h3:hover{
-            opacity: 0.8;
-        }
+    h4 {
+      cursor: pointer;
     }
+    h4:hover {
+      opacity: 0.8;
+    }
+  }
 }
 </style>

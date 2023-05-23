@@ -1,22 +1,19 @@
 <template>
   <div id="box">
-    <top/>
+    <top />
 
-    <router-view/>
+    <router-view />
 
-    <bottom/>
+    <bottom />
   </div>
-  
-  
 </template>
 <script setup>
-import top from './components/Header.vue'
-import bottom from './components/footer.vue'
-
+import top from "./components/Header.vue";
+import bottom from "./components/footer.vue";
 </script>
 <style scoped lang="scss">
-#box{
-  margin: 0 auto;
+#box {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
