@@ -53,7 +53,7 @@
             "category": "MS students",
             "mes": [
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "https://mdbartos.s3.us-east-2.amazonaws.com/img/Matt_Bartos.jpeg",
                     "name": "Jimmy Ardoin",
                     "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
@@ -75,7 +75,7 @@
                     ]
                 },
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "./Matt_Bartos.jpeg",
                     "name": "Yuanzhe Wang",
                     "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
