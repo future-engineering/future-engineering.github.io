@@ -1,1 +1,14 @@
-{}
+{
+    "teaching": [
+        {
+            "img": "/teaching/1.png",
+            "name": "CE 374U: Urban Stormwater",
+            "introduce": "Application of engineering hydraulics to watershed management and urban infrastructure design; engineering hydrology; open-channel hydraulics; remotely-sensed data analysis; hydraulic and hydrologic modeling tools; urban water quality and low impact design."
+        },
+        {
+            "img": "/teaching/2.png",
+            "name": "CE 397: Control theory for smart infrastructure",
+            "introduce": "Introduction to control theory for civil engineers, with applications to structural, hydraulic, transportation, HVAC, electrical, and water/wastewater treatment systems. Presents mathematical methods for (i) modeling civil infrastructure systems, (ii) estimating system states from sensor data, and (iii) controlling system dynamics. Topics include differential equation-based models of civil infrastructure; time and frequency domain representations; linear spaces and linear operators; state-space models; modal analysis; controllability and observability; feedback control; state estimation; and system identification. Three lecture hours a week for one semester. Prerequisite: graduate standing; undergraduate-level differential equations and linear algebra; programming experience with Python or MATLAB recommended."
+        }
+    ]
+}
