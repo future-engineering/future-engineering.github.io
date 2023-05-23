@@ -4,7 +4,7 @@
             "category": "Faculty",
             "mes": [
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "/people/Matt_Bartos.jpeg",
                     "name": "Matt Bartos",
                     "identity": "Assistant Professor, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
@@ -21,7 +21,7 @@
             "category": "PhD students",
             "mes": [
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "/people/Matt_Bartos.jpeg",
                     "name": "Yeji Kim",
                     "identity": "PhD student, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
@@ -30,7 +30,7 @@
                     ]
                 },
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "/people/Matt_Bartos.jpeg",
                     "name": "Min-Gyu Kim",
                     "identity": "PhD student, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
@@ -39,7 +39,7 @@
                     ]
                 },
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "/people/Matt_Bartos.jpeg",
                     "name": "Jeil Oh",
                     "identity": "PhD student, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
@@ -67,7 +67,7 @@
             "category": "MS alumni",
             "mes": [
                 {
-                    "img": "/public/people/Matt_Bartos.jpeg",
+                    "img": "/people/Matt_Bartos.jpeg",
                     "name": "Aditi Bhat Ilanthodi",
                     "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
                     "introduce": [
