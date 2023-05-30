@@ -41,6 +41,8 @@ console.log(people.people);
       padding-top: 5px;
       .img {
         // box-sizing: border-box;
+        width: 230px;
+        height: 230px;
         margin-right: 40px;
         border-radius: 50%;
         padding: 5px;

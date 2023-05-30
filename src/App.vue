@@ -1,8 +1,9 @@
 <template>
   <div id="box">
     <top />
-
-    <router-view />
+    <div id="mid">
+      <router-view />
+    </div>
 
     <bottom />
   </div>
@@ -17,5 +18,8 @@ import bottom from "./components/footer.vue";
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+#mid {
+  min-height: 400px;
 }
 </style>

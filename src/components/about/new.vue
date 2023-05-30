@@ -4,12 +4,12 @@
     <div id="title" v-for="item in ulNum" @click="item.flag = !item.flag">
       <span v-show="!item.flag">→</span>
       <span v-show="item.flag">↓</span>
-      <div>
+      <dl>
         <span>{{ item.title }}</span>
         <li v-for="mes in item.mesage" v-show="item.flag">
           {{ mes }}
         </li>
-      </div>
+      </dl>
     </div>
   </div>
 </template>
@@ -47,8 +47,11 @@ let ulNum = ref([
       // background-color: #fff;
       margin-right: 10px;
     }
-    div {
+    dl {
       font-size: 20px;
+      li {
+        list-style: disc;
+      }
       span {
         border-bottom: 1px solid #fff;
       }
