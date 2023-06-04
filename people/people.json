@@ -1,93 +1,129 @@
 {
     "people": [
         {
-            "category": "Faculty",
+            "category": "副教授",
+            "cid": "0",
             "mes": [
                 {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Matt Bartos",
-                    "identity": "Assistant Professor, Department of Civil, Architectural and Environmental Engineering",
+                    "img": "/people/image/MengQingXiang.jpg",
+                    "name": "孟庆祥",
+                    "identity": "河海大学岩土所副教授",
                     "introduce": [
-                        "Ph.D. Civil Engineering, University of Michigan, 2020",
-                        "M.S. Electrical and Computer Engineering, University of Michigan, 2019",
-                        "M.S.E. Civil Engineering, University of Michigan, 2019",
-                        "B.S.E. Environmental Engineering, Arizona State University, 2013",
-                        "B.A. English Literature, Arizona State University, 2013"
+                        "mqx@hhu.edu.cn"
                     ]
                 }
             ]
         },
         {
-            "category": "PhD students",
+            "category": "2022届成员",
+            "cid": "1",
             "mes": [
                 {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Yeji Kim",
-                    "identity": "PhD student, Department of Civil, Architectural and Environmental Engineering",
+                    "img": "/people/image/2022/FKF.jpg",
+                    "name": "范凯丰",
+                    "identity": "河海大学",
                     "introduce": [
-                        "M.S. Earth Sciences and Environmental Engineering, Gwangju Institute of Science and Technology, 2019",
-                        "B.S. Environmental Science and Engineering, Ewha Womans University, 2016"
+                        "221304010007@hhu.edu.cn"
                     ]
                 },
                 {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Min-Gyu Kim",
-                    "identity": "PhD student, Department of Civil, Architectural and Environmental Engineering",
+                    "img": "/people/image/2022/FZH.jpg",
+                    "name": "方正豪",
+                    "identity": "河海大学",
                     "introduce": [
-                        "M.S. Engineering, Seoul National University, 2007",
-                        "B.S. Agricultural Engineering, Seoul National University, 2005"
+                        "221604010015@hhu.edu.cn"
                     ]
                 },
                 {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Jeil Oh",
-                    "identity": "PhD student, Department of Civil, Architectural and Environmental Engineering",
+                    "img": "/people/image/2022/SZ.jpg",
+                    "name": "沈壮",
+                    "identity": "河海大学",
                     "introduce": [
-                        "M.S. Civil and Environmental Engineering, University of Texas at Austin, 2022",
-                        "B.S. Civil and Environmental Engineering, Yonsei University, 2020"
+                        "221304010046@hhu.edu.cn"
+                    ]
+                },
+                {
+                    "img": "/people/image/2022/TZX.jpg",
+                    "name": "陶振西",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "221604010065@hhu.edu.cn"
+                    ]
+                },
+                {
+                    "img": "/people/image/2022/WJ.jpg",
+                    "name": "汪健",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "221304010052@hhu.edu.cn"
+                    ]
+                },
+                {
+                    "img": "/people/image/2022/ZX.jpg",
+                    "name": "周鑫 ",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "221304010086@hhu.edu.cn"
                     ]
                 }
             ]
         },
         {
-            "category": "MS students",
+            "category": "2021届成员",
+            "cid": "2",
             "mes": [
                 {
-                    "img": "https://mdbartos.s3.us-east-2.amazonaws.com/img/Matt_Bartos.jpeg",
-                    "name": "Jimmy Ardoin",
-                    "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
+                    "img": "/people/image/2021/DY.jpg",
+                    "name": "丁喻",
+                    "identity": "河海大学",
                     "introduce": [
-                        "B.S. Physics, Texas A&M University, 2022",
-                        "B.S. History, Texas A&M University, 2022"
+                        "211304010009@hhu.edu.cn"
+                    ]
+                },
+                {
+                    "img": "/people/image/2021/SHT.jpg",
+                    "name": "宋杭天",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "1757399918@qq.com"
+                    ]
+                },
+                {
+                    "img": "/people/image/2021/TMH.jpg",
+                    "name": "唐明昊",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "tangminghao20@163.com"
+                    ]
+                },
+                {
+                    "img": "/people/image/2021/WW.jpg",
+                    "name": "汪炜",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "211604010064@hhu.edu.cn"
+                    ]
+                },
+                {
+                    "img": "/people/image/2021/XHY1.jpg",
+                    "name": "薛浩宇",
+                    "identity": "河海大学",
+                    "introduce": [
+                        "211304010068@hhu.edu.cn"
                     ]
                 }
             ]
         },
         {
-            "category": "MS alumni",
+            "category": "2020届成员",
+            "cid": "3",
             "mes": [
                 {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Aditi Bhat Ilanthodi",
-                    "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
+                    "img": "/people/image/2020/QK1.jpg",
+                    "name": "钱坤",
+                    "identity": "河海大学",
                     "introduce": [
-                        "B.Tech Civil Engineering, National Institute of Technology Karnataka, 2020"
-                    ]
-                },
-                {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Yuanzhe Wang",
-                    "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
-                    "introduce": [
-                        "B.S. Civil and Environmental Engineering, University of New South Wales, 2020"
-                    ]
-                },
-                {
-                    "img": "/people/Matt_Bartos.jpeg",
-                    "name": "Zhang San",
-                    "identity": "MS student, Department of Civil, Architectural and Environmental Engineering",
-                    "introduce": [
-                        "HoHai"
+                        "1458288021@qq.com"
                     ]
                 }
             ]
