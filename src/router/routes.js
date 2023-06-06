@@ -8,20 +8,30 @@ export default [
         component: () => import('../views/Research.vue')
     },
     {
-        path: '/people',
+        path: '/members',
         component: () => import('../views/People.vue')
     },
     {
         path: '/publications',
-        component: () => import('../views/Publications.vue')
+        component: () => import('../views/Publications/Publications.vue'),
+        children: [
+            {
+                path: "/publications",
+                component: () => import("../views/Publications/PublicationsList.vue")
+            }
+        ]
     },
     {
-        path: '/teaching',
-        component: () => import('../views/Teaching.vue')
+        path: '/news',
+        component: () => import('../views/News.vue')
     },
     {
-        path: '/code',
-        component: () => import('../views/Code.vue')
+        path: '/links',
+        component: () => import('../views/Links.vue')
+    },
+    {
+        path: '/article',
+        component: () => import('../views/Article.vue')
     },
 
 

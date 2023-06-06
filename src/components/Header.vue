@@ -3,17 +3,20 @@
     <div class="move">
       <div id="box">
         <div id="picName">
-          <img src="../../public/images/favicon.ico" alt="" />
+          <img
+            src="/public/images/95ffa6eb626def05cd6be795e164301.png"
+            alt=""
+          />
           <h4 @click="$router.push('/')">Future Engineering</h4>
         </div>
         <ul>
-          <li @click="$router.push('/research')" class="button">Research</li>
-          <li @click="$router.push('/people')" class="button">People</li>
+          <li @click="$router.push('/research')" class="button">研究方向</li>
+          <li @click="$router.push('/members')" class="button">课题组成员</li>
           <li @click="$router.push('/publications')" class="button">
-            Publications
+            科学研究
           </li>
-          <li @click="$router.push('/teaching')" class="button">Teaching</li>
-          <li @click="$router.push('/code')" class="button">Code</li>
+          <li @click="$router.push('/news')" class="button">新闻中心</li>
+          <li @click="$router.push('/links')" class="button">联系我们</li>
         </ul>
       </div>
     </div>
@@ -63,13 +66,14 @@
   align-items: center;
   ul {
     display: flex;
-    width: 50%;
+    width: 57%;
     // background: blue;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     .button {
-      z-index: 1;
+      // background-color: red;
+      // z-index: 1;
       font-size: inherit;
       font-family: inherit;
       color: white;

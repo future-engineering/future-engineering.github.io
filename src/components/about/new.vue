@@ -1,11 +1,13 @@
 <template>
   <div id="box">
     <h2>News</h2>
-    <div id="title" v-for="item in ulNum" @click="item.flag = !item.flag">
+    <div id="title" v-for="item in ulNum">
       <span v-show="!item.flag"></span>
       <span v-show="item.flag"></span>
       <dl>
-        <span class="button">{{ item.title }}</span>
+        <span class="button" @click="item.flag = !item.flag">{{
+          item.title
+        }}</span>
         <li v-for="mes in item.mesage" v-show="item.flag" class="span">
           {{ mes }}
         </li>
@@ -31,6 +33,7 @@ let ulNum = ref([
 </script>
 <style scoped lang="scss">
 #box {
+  color: #fff;
   h2 {
     font-weight: 500;
   }

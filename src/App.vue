@@ -20,6 +20,6 @@ import bottom from "./components/footer.vue";
   justify-content: space-between;
 }
 #mid {
-  min-height: 400px;
+  min-height: 500px;
 }
 </style>

@@ -108,5 +108,14 @@ onMounted(() => {
 #box {
   width: 900px;
   height: 400px;
+  animation: show 1s ease-in;
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 </style>
