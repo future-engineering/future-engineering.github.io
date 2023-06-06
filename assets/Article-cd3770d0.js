@@ -1,1 +1,0 @@
-import{_ as t,a as c,c as _,p as o,e as s,d}from"./index-e62f7395.js";const a={},n=e=>(o("data-v-5077d933"),e=e(),s(),e),r={id:"box"},p=n(()=>d("h1",null,"Article",-1)),i=[p];function l(e,h){return c(),_("div",r,i)}const f=t(a,[["render",l],["__scopeId","data-v-5077d933"]]);export{f as default};
