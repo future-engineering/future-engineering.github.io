@@ -12,7 +12,6 @@
 import mesage from "../../public/publications/publicationsList/list.json";
 import { useRoute } from "vue-router";
 let route = useRoute();
-console.log(route.query);
 let ind = route.query.ind;
 let tid = route.query.tid;
 </script>

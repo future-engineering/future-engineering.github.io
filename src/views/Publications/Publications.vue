@@ -50,6 +50,12 @@ watchEffect(() => {
 
 let tid = ref("");
 </script>
+
+<script>
+export default {
+  name: "publications",
+};
+</script>
 <style scoped lang="scss">
 #box {
   // background: red;

@@ -2,7 +2,12 @@
   <div id="box">
     <top />
     <div id="mid">
-      <router-view />
+      <router-view v-slot="{ Component }">
+        <keep-alive :include="['publications']" :exclude="[]">
+          <component :is="Component"></component>
+        </keep-alive>
+      </router-view>
+      <!-- <router-view /> -->
     </div>
 
     <bottom />
