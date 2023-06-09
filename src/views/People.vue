@@ -42,21 +42,18 @@
 import people from "../../public/people/people.json";
 import { ref, onMounted } from "vue";
 
-console.log(people.people);
 let peopleObj = ref({
   people0: [],
   student: [],
 });
 
 people.people.forEach((item, index) => {
-  console.log(item.cid);
   if (item.cid == 0) {
     peopleObj.value.people0.push(item);
   } else {
     peopleObj.value.student.push(item);
   }
 });
-console.log(peopleObj.value);
 
 onMounted(() => {});
 </script>

@@ -3,6 +3,7 @@
     <div class="box">
       <p v-html="mesage.list[ind].text[tid].title"></p>
       <span v-html="mesage.list[ind].text[tid].name"></span>
+      <span v-html="mesage.list[ind].text[tid].time" class="span"></span>
       <div v-html="mesage.list[ind].text[tid].top" class="top"></div>
       <div v-html="mesage.list[ind].text[tid].main"></div>
     </div>
@@ -35,6 +36,9 @@ let tid = route.query.tid;
       display: block;
       width: 100%;
       text-align: center;
+      margin-bottom: 10px;
+    }
+    .span {
       margin-bottom: 60px;
     }
     div {
@@ -43,6 +47,7 @@ let tid = route.query.tid;
         position: relative !important;
         left: 50% !important;
         transform: translateX(-50%);
+        max-width: 1000px;
       }
     }
   }
