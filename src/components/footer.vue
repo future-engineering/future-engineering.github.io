@@ -25,15 +25,12 @@
 #wrap {
   border-top: 1px solid #9b9a9a;
   width: 100%;
-  height: 150px;
+  // height: 150px;
   box-sizing: border-box;
-  padding: 40px 50px 0 50px;
+  padding: 20px 50px 20px 50px;
   color: rgb(155, 161, 166);
 
   #box {
-    // background: red;
-    width: 1100px;
-    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

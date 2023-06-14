@@ -20,11 +20,15 @@ import bottom from "./components/footer.vue";
 <style scoped lang="scss">
 #box {
   margin: auto;
+  // height: 100%;
+  min-height: 100vh;
+  max-width: 1100px;
+  min-width: 550px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  // justify-content: space-between;
+  align-content: space-between;
+  padding: 0 50px;
 }
-#mid {
-  min-height: 500px;
-}
+
 </style>

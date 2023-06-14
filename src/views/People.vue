@@ -59,9 +59,7 @@ onMounted(() => {});
 </script>
 <style scoped lang="scss">
 #box {
-  box-sizing: border-box;
-  width: 1100px;
-  padding: 50px;
+  
 
   .box {
     width: 100%;
@@ -96,7 +94,6 @@ onMounted(() => {});
           width: 230px;
           height: 230px;
           overflow: hidden;
-          // background-color: red;
           border-radius: 50%;
           img {
             display: block;
@@ -142,11 +139,13 @@ onMounted(() => {});
       margin-bottom: 30px;
     }
     .flexBox {
+      width: 100%;
       display: flex;
       flex-wrap: wrap;
+      align-content: center;
     }
     .mesageBox {
-      width: 50%;
+      // width: 50%;
       margin-bottom: 50px;
       display: flex;
       align-items: center;
@@ -156,8 +155,8 @@ onMounted(() => {});
       // background-color: red;
       .img {
         // box-sizing: border-box;
-        width: 180px;
-        height: 180px;
+        width: 170px;
+        height: 170px;
         margin-right: 20px;
         border-radius: 50%;
         padding: 5px;
@@ -166,8 +165,8 @@ onMounted(() => {});
         animation: move 1s ease-in;
         overflow: hidden;
         .imgBox {
-          width: 180px;
-          height: 180px;
+          width: 170px;
+          height: 170px;
           overflow: hidden;
           // background-color: red;
           border-radius: 50%;

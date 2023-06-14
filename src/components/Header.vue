@@ -1,6 +1,6 @@
 <template>
   <div id="wrap">
-    <div class="move">
+
       <div id="box">
         <div id="picName">
           <img
@@ -19,7 +19,7 @@
           <li @click="$router.push('/links')" class="button">联系我们</li>
         </ul>
       </div>
-    </div>
+
   </div>
 </template>
 <script setup></script>
@@ -28,59 +28,33 @@
   box-sizing: border-box;
   width: 100%;
   border-bottom: 1px solid #9b9a9a;
-
-  // padding: 25px 50px 0 50px;
-  overflow: hidden;
-  position: relative;
-}
-.move {
-  width: 1100px;
-  height: 95px;
-  // background: red;
-  position: relative;
-
-  animation: move 1s linear;
-  animation-fill-mode: forwards;
+  padding: 25px 0 20px 50px;
   margin: auto;
-}
-@keyframes move {
-  0% {
-    top: -60px;
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.3;
-  }
-  100% {
-    top: 25px;
-    opacity: 1;
-  }
+  margin-bottom: 50px;
 }
 
 #box {
-  // width: 100%;
-  // background-color: #fff;
+  width: 100%;
   color: #fff;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   ul {
     display: flex;
-    width: 57%;
+    width: 60%;
     // background: blue;
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     .button {
-      // background-color: red;
-      // z-index: 1;
+      text-align: center;
       font-size: inherit;
       font-family: inherit;
       color: white;
       padding: 0.5em 1em;
       outline: none;
       border: none;
-      // background-color: hsl(236, 32%, 26%);
     }
 
     .button:hover {
@@ -106,7 +80,7 @@
   }
   #picName {
     // background: blue;
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
