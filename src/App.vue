@@ -7,7 +7,6 @@
           <component :is="Component"></component>
         </keep-alive>
       </router-view>
-      <!-- <router-view /> -->
     </div>
 
     <bottom />

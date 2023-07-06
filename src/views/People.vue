@@ -59,8 +59,6 @@ onMounted(() => {});
 </script>
 <style scoped lang="scss">
 #box {
-  
-
   .box {
     width: 100%;
     color: #fff;
@@ -143,9 +141,10 @@ onMounted(() => {});
       display: flex;
       flex-wrap: wrap;
       align-content: center;
+      // justify-content: space-between;
     }
     .mesageBox {
-      // width: 50%;
+      width: 50%;
       margin-bottom: 50px;
       display: flex;
       align-items: center;
