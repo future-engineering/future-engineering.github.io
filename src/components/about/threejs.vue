@@ -3,9 +3,9 @@
 </template>
 <script setup>
 import { ref, onMounted } from "vue";
-import { colorArr } from "../../../public/color";
-import { indexNum } from "../../../public/element";
-import { arr } from "../../../public/node";
+import { colorArr } from "../../../public/three/color";
+import { indexNum } from "../../../public/three/element";
+import { arr } from "../../../public/three/node";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 

@@ -1,22 +1,26 @@
 <template>
   <div id="wrap">
     <div id="box">
-      <p id="first">Sitemap</p>
       <div id="second">
         <h6>FOLLOW:</h6>
         <div>
           <img src="../../public/images/logo.png" alt="" />
-          <h6>GITHUB</h6>
-        </div>
-        <div>
-          <img src="../../public/images/logo.png" alt="" />
-          <h6>FEED</h6>
+          <h6>
+            <a
+              href="https://github.com/future-engineering/future-engineering.github.io"
+              target="blank"
+              >GITHUB</a
+            >
+          </h6>
         </div>
       </div>
-      <span
-        >© 2023 Future Water Systems Lab. Powered by Jekyll & AcademicPages, a
-        fork of Minimal Mistakes.</span
-      >
+      <div>
+        <h6>公众号：数字孪生与工程技术</h6>
+      </div>
+    </div>
+
+    <div id="image">
+      <img src="../../public/images/erweima.jpg" alt="" />
     </div>
   </div>
 </template>
@@ -29,12 +33,13 @@
   box-sizing: border-box;
   padding: 20px 50px 20px 50px;
   color: rgb(155, 161, 166);
-
+  display: flex;
   #box {
-    display: flex;
+    // display: flex;
+    padding-top: 5px;
     flex-direction: column;
     justify-content: space-between;
-    margin: auto;
+    // margin: auto;
     #first {
       width: 63px;
       cursor: pointer;
@@ -47,6 +52,7 @@
       // background: white;
       display: flex;
       align-items: center;
+      margin-bottom: 10px;
       div {
         display: flex;
         align-items: center;
@@ -61,13 +67,23 @@
         }
 
         img {
+          display: block;
           width: 20px;
+          margin-right: 10px;
         }
       }
     }
     span {
       font-size: 10px;
       cursor: pointer;
+    }
+  }
+  #image {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    img {
+      display: block;
+      width: 50px;
     }
   }
 }
