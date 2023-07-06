@@ -17,19 +17,9 @@
 </template>
 <script setup>
 import { ref } from "vue";
+import news from "../../../public/news/news.json";
 
-let ulNum = ref([
-  {
-    title: "Recent",
-    mesage: ["1", "2", "3", "4", "5"],
-    flag: false,
-  },
-  {
-    title: "Older",
-    mesage: ["1", "2", "3", "4", "5"],
-    flag: false,
-  },
-]);
+let ulNum = ref(news);
 </script>
 <style scoped lang="scss">
 #box {
@@ -54,6 +44,7 @@ let ulNum = ref([
       font-size: 20px;
       li {
         list-style: disc;
+        margin-bottom: 10px;
       }
       .span {
         position: relative;

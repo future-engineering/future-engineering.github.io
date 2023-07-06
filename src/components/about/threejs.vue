@@ -32,6 +32,8 @@ let init = () => {
   //renderer
   let renderer = new THREE.WebGLRenderer();
   renderer.setSize(900, 400);
+  // renderer.setSize(window.innerWidth, window.innerHeight);
+
   box.value.appendChild(renderer.domElement);
 
   //geomentry
@@ -106,7 +108,7 @@ onMounted(() => {
 </script>
 <style scoped lang="scss">
 #box {
-  width: 900px;
+  width: 100%;
   height: 400px;
   animation: show 1s ease-in;
 }

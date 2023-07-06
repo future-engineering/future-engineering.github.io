@@ -1,25 +1,18 @@
 <template>
   <div id="wrap">
-
-      <div id="box">
-        <div id="picName">
-          <img
-            src="/public/images/95ffa6eb626def05cd6be795e164301.png"
-            alt=""
-          />
-          <h4 @click="$router.push('/')">Future Engineering</h4>
-        </div>
-        <ul>
-          <li @click="$router.push('/research')" class="button">研究方向</li>
-          <li @click="$router.push('/members')" class="button">课题组成员</li>
-          <li @click="$router.push('/publications')" class="button">
-            科学研究
-          </li>
-          <li @click="$router.push('/news')" class="button">新闻中心</li>
-          <li @click="$router.push('/links')" class="button">联系我们</li>
-        </ul>
+    <div id="box">
+      <div id="picName">
+        <img src="/public/images/logo.png" alt="" />
+        <h4 @click="$router.push('/')">Future Engineering</h4>
       </div>
-
+      <ul>
+        <li @click="$router.push('/research')" class="button">研究方向</li>
+        <li @click="$router.push('/members')" class="button">课题组成员</li>
+        <li @click="$router.push('/publications')" class="button">科学研究</li>
+        <li @click="$router.push('/news')" class="button">新闻中心</li>
+        <li @click="$router.push('/links')" class="button">联系我们</li>
+      </ul>
+    </div>
   </div>
 </template>
 <script setup></script>
@@ -55,6 +48,7 @@
       padding: 0.5em 1em;
       outline: none;
       border: none;
+      min-width: 50px;
     }
 
     .button:hover {
@@ -80,14 +74,14 @@
   }
   #picName {
     // background: blue;
-    width: 20%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #e2e8f0;
     img {
       display: block;
-      width: 50px;
+      width: 80px;
     }
     h4 {
       cursor: pointer;
@@ -95,6 +89,12 @@
     h4:hover {
       opacity: 0.8;
     }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  #wrap {
+    width: 1100px;
   }
 }
 </style>

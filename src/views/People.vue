@@ -60,7 +60,7 @@ onMounted(() => {});
 <style scoped lang="scss">
 #box {
   .box {
-    width: 100%;
+    width: 1100px;
     color: #fff;
     margin-bottom: 50px;
     h2 {
@@ -130,7 +130,7 @@ onMounted(() => {});
   }
 
   .box1 {
-    width: 100%;
+    width: 1100px;
     color: #fff;
     h2 {
       font-weight: 500;

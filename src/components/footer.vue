@@ -5,11 +5,11 @@
       <div id="second">
         <h6>FOLLOW:</h6>
         <div>
-          <img src="../../public/images/favicon.ico" alt="" />
+          <img src="../../public/images/logo.png" alt="" />
           <h6>GITHUB</h6>
         </div>
         <div>
-          <img src="../../public/images/favicon.ico" alt="" />
+          <img src="../../public/images/logo.png" alt="" />
           <h6>FEED</h6>
         </div>
       </div>
@@ -24,7 +24,7 @@
 <style scoped lang="scss">
 #wrap {
   border-top: 1px solid #9b9a9a;
-  width: 100%;
+  width: 1100px;
   // height: 150px;
   box-sizing: border-box;
   padding: 20px 50px 20px 50px;
